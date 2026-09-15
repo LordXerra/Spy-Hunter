@@ -1,0 +1,30 @@
+# --- Build output ------------------------------------------------------------
+# SwiftPM build products and caches (recreated by `swift build`).
+.build/
+.swiftpm/
+# App bundle, iconset and DMGs produced by build_app.sh / release_dmg.sh.
+build/
+*.dmg
+
+# --- Xcode (if the package is ever opened in Xcode) --------------------------
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# --- Python (Tools/ asset scripts) -------------------------------------------
+__pycache__/
+*.pyc
+
+# --- Project notes and release tooling not needed to build or run ------------
+PLAN.md
+Prompt.txt
+release_dmg.sh
+
+# --- Editor / assistant local settings ---------------------------------------
+.claude/
+.vscode/
+.idea/
+
+# --- macOS -------------------------------------------------------------------
+.DS_Store
+._*
